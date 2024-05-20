@@ -1,0 +1,42 @@
+nav {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    align-items:center;
+    background-color:skyblue;
+    border-width:5px;
+    position:fixed;
+    width:auto;
+    height:50px;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    border-width:100%;
+    padding:20px;
+}
+#name{
+    color:black;
+}
+body {
+    background-color:black;
+    color:azure;
+}
+
+.content{
+    display:inline-flex;
+    justify-content:left;
+    width:auto;
+    left:0;
+    right:0;
+    padding: 0vh 0vw 10vh 10vw;
+}
+
+img {
+    padding: 0 50px 0 0;
+}
+
+p{
+    align-content:center;
+}
