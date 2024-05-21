@@ -28,7 +28,5 @@ form{
 }
 
 .message{
-    padding: 0 0 0 20vw;
-    width:500px;
-    height:250px;
+    padding: 0 0 0 0vw;
 }
