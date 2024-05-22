@@ -66,3 +66,12 @@ img {
 p{
     align-content:center;
 }
+
+#form{
+    justify-content:center;
+    width:auto;
+    left:0;
+    right:0;
+    position:relative;
+    padding: 0vh 0vw 0vh 0vw;
+}
