@@ -1,45 +1,80 @@
-h1{
-    display:inline-flex;
-    justify-content:left;
-    width:auto;
-    left:0;
-    right:0;
-    padding: 10vh 0vw 0vh 10vw;
+@media screen and (min-width:801px){
+    h1{
+        display:inline-flex;
+        justify-content:left;
+        width:auto;
+        padding: 0vh 10vw 0vh 10vw;
+        }
+
+    h2 {
+        justify-content:left;
+        width:auto;
+        padding: 0vh 10vw 0vh 10vw;
     }
 
-h2 {
-    justify-content:left;
-    width:auto;
-    left:0;
-    right:0;
-    padding: 0vh 10vw 0vh 10vw;
+    h3 {
+        justify-content:center;
+        width:auto;
+        padding: 0vh 10vw 0vh 10vw;
+        font-family: cursive;
+    }
+
+    h4 {
+        justify-content:center;
+        width:auto;
+        padding: 0vh 10vw 0vh 10vw;
+        font-family: monospace;
+        color:limegreen;
+    }
+
+    h5 {
+        justify-content:left;
+        width:auto;
+        padding: 0vh 10vw 0vh 10vw;
+        font-family: monospace;
+        color:limegreen;
+    }
 }
 
-h3 {
-    justify-content:left;
-    width:auto;
-    left:0;
-    right:0;
-    padding: 0vh 10vw 0vh 10vw;
-    font-family: cursive;
-}
+@media screen and (max-width:800px){
+    h1{
+        display:inline-flex;
+        flex-wrap:wrap;
+        justify-content:left;
+        width:auto;
+        padding: 0vh 10vw 0vh 10vw;
+        }
 
-h4 {
-    justify-content:left;
-    width:auto;
-    left:0;
-    right:0;
-    padding: 0vh 10vw 0vh 10vw;
-    font-family: monospace;
-    color:limegreen;
-}
+    h2 {
+        justify-content:left;
+        text-wrap:wrap;
+        width:auto;
+        padding: 0vh 10vw 0vh 10vw;
+    }
 
-h5 {
-    justify-content:left;
-    width:auto;
-    left:0;
-    right:0;
-    padding: 0vh 10vw 0vh 11vw;
-    font-family: monospace;
-    color:limegreen;
+    h3 {
+        justify-content:left;
+        width:auto;
+        text-wrap:wrap;
+        padding: 0vh 10vw 0vh 10vw;
+        font-family: cursive;
+    }
+
+    h4 {
+        justify-content:left;
+        width:auto;
+        text-wrap:wrap;
+        padding: 0vh 10vw 0vh 10vw;
+        font-family: monospace;
+        color:limegreen;
+    }
+
+    h5 {
+        justify-content:left;
+        width:auto;
+        text-wrap:wrap;
+        padding: 0vh 10vw 0vh 10vw;
+        font-family: monospace;
+        color:limegreen;
+    }
 }

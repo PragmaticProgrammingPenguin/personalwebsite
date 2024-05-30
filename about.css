@@ -1,14 +1,12 @@
 
 h1{
-    padding: 10vh 10vw 0vh 10vw;
+    padding: 0vh 10vw 0vh 10vw;
 }
 
 h2 {
     color:yellow;
     justify-content:left;
     width:auto;
-    left:0;
-    right:0;
     padding: 0vh 10vw 0vh 10vw;
 }
 
@@ -16,16 +14,9 @@ h3 {
     color:yellow;
     justify-content:left;
     width:auto;
-    left:0;
-    right:0;
     padding: 0vh 10vw 0vh 10vw;
 }
 
-.imgcontent{
-    display:inline-flex;
-    justify-content:left;
-    width:auto;
-    left:0;
-    right:0;
-    padding: 0vh 0vw 0vh 10vw;
+p{
+    padding: 0vh 10vw 0vh 10vw;
 }
